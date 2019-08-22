@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+html,body {
+	height: 100%;
+	width: 100%;
+}
+#title-text{
+	font-family: 'Consolas', sans-serif;
+	font-size: 700%;
+	line-height: .9;
+}
+#home {
+	background: url(sand-mountain.jpg) no-repeat 50% 50%;
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	color: #FFF;
+	font-family: sans-serif;
+}
+.landing-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.h33 {
+	font-family: 'Consolas', sans-serif;
+	font-size: 260%;
+	font-weight: 500;
+	line-height: 1.2;
+}
+.btn-default {
+	background-color: #FFF;
+	color: #36342F;
+	font-size: 160%;
+}
+.btn-default:hover {
+	color: #FFF;
+	background-color: #36342F;
+}
+@media (max-width: 768px) {
+	#title-box {
+		font-size: 350%;
+	}
+	.h33 {
+		font-size: 150%;
+	}
+	.btn-default {
+		font-size: 120%;
+	}
+}
+
+
+.cont{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.bk{
+	width: 100%;
+}
+.bk:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.card-body{
+	padding: 5%;
+}
+.icon{
+	width: 90%;
+	height: auto;
+	border-radius: 50%;
+}
+.pjit{
+	font-size: 150%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
